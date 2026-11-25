@@ -36,3 +36,6 @@ A quick Arduino sketch that animates a two-tile cat running/flipping across a 16
 ## Note on `lcd.clear()` & `createChar()`
 
 Calling `lcd.clear()` and `lcd.createChar()` inside every loop step is fine for a small demo like this, though on some I2C LCD backpacks frequent clears can cause a slight flicker and rewriting CGRAM every frame takes a few extra milliseconds over I2C. If you want smoother motion later, you can load the custom characters once and overwrite only the changed cells instead of clearing the whole screen.
+
+## Wiring
+<img width="1919" height="1038" alt="image" src="https://github.com/user-attachments/assets/edb2bca2-1497-4e09-8ef7-af52a774b0b4" />
